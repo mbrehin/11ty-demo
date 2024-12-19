@@ -1,5 +1,5 @@
 module.exports = {
-	title: "Démonstation de site statique éditable",
+	title: "Démo",
 	url: "https://technolowgic.com/",
 	language: "fr",
 	description: "Ce site sert de banc d'essai à 11ty et PagesCMS",
