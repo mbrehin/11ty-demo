@@ -1,7 +1,7 @@
 media: public/img
 content:
   - name: posts
-    label: Posts
+    label: Articles
     type: collection
     path: content/blog
     view:
@@ -14,7 +14,7 @@ content:
       - { name: tags, label: Tags, type: string, list: true }
       - { name: body, label: Body, type: rich-text }
   - name: about
-    label: About page
+    label: Page "À propos"
     type: file
     path: content/about/index.md
     fields:
@@ -27,7 +27,7 @@ content:
           - { name: order, label: Order, type: number }
       - { name: body, label: Body, type: rich-text }
   - name: metadata
-    label: Metadata
+    label: Méta-données
     type: file
     path: _data/metadata.js
     format: code
