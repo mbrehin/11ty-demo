@@ -1,0 +1,8 @@
+{
+  "title": "This is the very first post",
+  "description": "With its first description",
+  "date": "2025-01-23T09:59:32+01:00",
+  "tags": "test",
+  "content": "<p>Hello world! This is the very first post.</p>",
+  "___mb_schema": "/.mattrbld/schemas/post.json"
+}
