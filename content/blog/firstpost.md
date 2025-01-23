@@ -6,6 +6,10 @@ draft: false
 tags:
   - another tag
 ___mb_schema: /.mattrbld/schemas/post.json
+image:
+  src: /media/conventional-commit.svg
+  alt: Texte alternatif 1
+  title: Titre d'image 1
 ---
 Voici un premier texte d'article avec du texte mis **en forme**.
 

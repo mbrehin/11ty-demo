@@ -92,25 +92,21 @@
       }
     },
     {
-      "type": "text",
+      "type": "tags",
       "default": null,
-      "icon": "text-input",
+      "icon": "tags",
       "key": "tags",
       "label": "Tags",
       "localised": false,
       "options": {
-        "wrapping": true,
-        "multiline": false
+        "allowUnsuggested": true,
+        "autocompleteModel": []
       },
       "tab": "ungrouped",
       "validation": {
-        "enforceMinMax": true,
         "max": null,
         "min": null,
-        "regex": null,
-        "regexError": null,
-        "required": false,
-        "unit": "length"
+        "unit": "tags"
       },
       "value": null,
       "version": 1,
@@ -181,6 +177,32 @@
         "regexError": null,
         "required": false,
         "unit": "length"
+      },
+      "value": null,
+      "version": 1,
+      "visibility": {
+        "hidden": false,
+        "showByValue": {
+          "field": null
+        }
+      }
+    },
+    {
+      "type": "image",
+      "default": null,
+      "icon": "image",
+      "key": "image",
+      "label": "Image",
+      "options": {
+        "resolutionHint": "",
+        "removable": true,
+        "simple": false
+      },
+      "tab": "ungrouped",
+      "validation": {
+        "max": null,
+        "required": false,
+        "unit": "filesize (MB)"
       },
       "value": null,
       "version": 1,
